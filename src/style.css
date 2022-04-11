@@ -5,4 +5,50 @@
 body {
     font-family: "Karla", sans-serif;
     margin: 0;
+    background-color: #E5E5E5;
+}
+
+.app {
+    width: 550px;
+    margin: auto;
+    background-color: white;
+}
+
+nav {
+    height: 65px;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    color: white;
+}
+
+.nav--title {
+    display: flex;
+    align-self: center;
+}
+
+.nav--logo {
+    width: 31px;
+    height: 26px;
+    align-self: center;
+    margin-right: 7px;
+}
+
+.nav--h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 24px;
+    letter-spacing: -0.1em;
+}
+
+.nav--subtitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: right;
+    align-self: center;
 }
