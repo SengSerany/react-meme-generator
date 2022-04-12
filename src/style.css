@@ -52,3 +52,40 @@ nav {
     text-align: right;
     align-self: center;
 }
+
+.contents {
+    margin: 36px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.meme--inputs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.meme--input {
+    width: 230px;
+    height: 35px;
+    margin-bottom: 15px;
+    border: solid #D5D4D8 1px;
+    border-radius: 5px;
+    padding: 11px;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box; 
+}
+
+.meme--submit {
+    width: 480px;
+    height: 40px;
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: -0.05em;
+}
