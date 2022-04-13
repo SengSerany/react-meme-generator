@@ -88,4 +88,11 @@ form {
     font-weight: 500;
     font-size: 16px;
     letter-spacing: -0.05em;
+    border: none;
+}
+
+.meme--img {
+    width: 100%;
+    border-radius: 2px;
+    margin: 36px auto 50px auto;
 }
