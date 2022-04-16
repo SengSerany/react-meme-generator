@@ -57,7 +57,7 @@ nav {
     margin: 36px;
 }
 
-form {
+main {
     display: flex;
     flex-direction: column;
 }
@@ -91,8 +91,36 @@ form {
     border: none;
 }
 
+.meme {
+    position: relative;
+    margin: 36px auto 50px auto;
+    display: flex;
+}
+
 .meme--img {
     width: 100%;
     border-radius: 2px;
-    margin: 36px auto 50px auto;
+}
+
+.meme--text {
+    width: 100%;
+    align-self: center;
+    position: absolute;
+    text-align: center;
+    font-family: 'Impact';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.top {
+    top: 0;
+}
+
+.bottom {
+    bottom : 0;
 }
